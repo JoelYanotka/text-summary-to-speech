@@ -3,27 +3,22 @@ This Python script summarizes a given Wikipedia page and then converts the summa
 
 
 ## Installation
-To use this script, you need to have Python 3 and the following libraries installed:
+To use this notebook, you need to have Python 3 and the following libraries installed:
 
-transformers
-sentencepiece
-datasets
-wikipedia
-beautifulsoup4
-num2words
-torch
-soundfile
+* transformers
+* sentencepiece
+* datasets
+* wikipedia
+* beautifulsoup4*
+* num2words*
+* torch*
+* soundfile*
+
+*Already installed in Google Colab Notebook.
 
 
 ## Usage
-The script can be executed by running the main.ipynb file with the following arguments:
-
-title: The title of the Wikipedia page to summarize (string)
-output: The name of the output audio file (string, optional)
-For example, to summarize the Wikipedia page about "Python_(programming_language)" and save the output audio file as "output.wav", run the following command:
-
-
-python main.py --title "Python (programming language)" --output output.wav
+The script can be executed by running the main.ipynb file, inputting the title of a Wikipedia page in the final cell of the notebook after the "Type the full title of a Wikipedia page: " message and pressing Enter.
 
 
 ## Functions
@@ -40,6 +35,7 @@ This function converts a given text into an audio file. The function uses a text
 
 merge_audio(list_of_text)
 This function takes a list of strings as input, creates audio files for each string using the previous function, and merges these audio files into a single output file.
+
 
 ## License
 This script is licensed under the MIT License.
