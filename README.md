@@ -10,7 +10,7 @@ To use this notebook, you need to have Python 3 and the following libraries inst
 * datasets
 * wikipedia
 * beautifulsoup4*
-* num2words*
+* num2words
 * torch*
 * soundfile*
 
