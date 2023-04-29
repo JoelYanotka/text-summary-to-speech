@@ -1,4 +1,4 @@
-# text-summary-to-speech
+# Wiki-summary-to-speech
 This Python script summarizes a given Wikipedia page and then converts the summary into an audio file.
 
 
